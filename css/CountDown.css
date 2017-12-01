@@ -1,0 +1,80 @@
+/*
+.d1{
+    background: red;
+    display: inline-block;
+    height: 100vh;
+    width: 29%;
+}
+.d2{
+    background: black;
+     display: inline-block;
+    height: 100vh;
+    width: 70%;
+}
+ html, body {
+        height: 100%;
+        margin: 0px;
+    }
+*/
+html{
+    height:100%;
+     margin: 0;
+    padding: 0;
+}
+body{
+    height:100%;
+     margin: 0;
+    padding: 0;
+}
+
+.div1{
+    float:left;
+    width: 25%;
+    background-color: black;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.h1{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+    padding-bottom: 180px;
+    font-size: 30px;
+    
+}
+.footer{
+    color:white;
+    padding-top: 100px;
+/*    text-align: left;*/
+}
+
+
+.div2{
+    float: right;
+    width: 75%;
+    height: 100%;
+    background-image: url("http://www.hdwallpaperup.com/wp-content/uploads/2015/02/Purple-sunset-over-the-lake-1920x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    min-height: 100%;*/
+    background-position: fixed;
+/*    border: 2px solid white;*/
+    
+}
+.cnt{
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+}
+.form{
+    text-align:  center;
+/*    margin-top: 30px;*/
+}
